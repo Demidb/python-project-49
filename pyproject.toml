@@ -4,13 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Demidb <LLiker1337@gmail.com>"]
 readme = "README.md"
+packages = [
+  { include = "brain_games" }, 
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
-packages = [
-  { include = "brain_games" },
-]
 
 [tool.poetry.scripts]
 brain_games = "brain_games.scripts.brain_games:main"
