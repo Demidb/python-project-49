@@ -1,6 +1,7 @@
+import prompt
+
+
 def welcome_user():
-    print('May I have your name? ', end='')
-    name = input()
-    print(f'Welcome to the Brain Games!\n'
-          f'May I have your name? {name}\n'
-          f'Hello, {name}!')
+    name = prompt.string('Welcome to the Brain Games!\n'
+                         'May I have your name? ')
+    print(f'Hello, {name}!')

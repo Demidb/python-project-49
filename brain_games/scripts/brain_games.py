@@ -1,9 +1,9 @@
+from brain_games.cli import welcome_user
+
+
 def main():
-    print(f'Welcome to the Brain Games!\n'
-          f'May I have your name? {name}\n'
-          f'Hello, {name}!')  
-    if __name__ == "__main__":
-        main()
-    if __name__ == "__main__":
-        name = input()
-        welcome_user('name') 
+    welcome_user()  # наша функция
+
+if __name__ == '__main__':
+
+    main()
