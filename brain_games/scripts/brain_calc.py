@@ -9,24 +9,24 @@ def calc():
     for n in range(3):
         number = random.randint(1, 100)
         number1 = random.randint(1, 100)
-        operand = random.choice(["+" or "-" or"*"])
-        print(f'Question: {number}  {operand}  {number1}') 
+        operand = random.choice([ "+","-","*" ])
+        print(f'Question: {number} {operand} {number1}') 
         if operand == "+":
                 sum = number + number1
                 answer=prompt.string('Your answer: ')
-                if int(answer) == sum:
+                if answer == str(sum):
                         print('Correct!')
                         count = count + 1
         if operand == "-":
                 sum = number - number1
                 answer=prompt.string('Your answer: ')
-                if int(answer) == sum:
+                if answer == str(sum):
                         print('Correct!')
                         count = count + 1
         if operand == "*":
                 sum = number * number1
                 answer=prompt.string('Your answer: ')
-                if int(answer) == sum:
+                if answer == str(sum):
                         print('Correct!')
                         count = count + 1            
     if count == 3:
