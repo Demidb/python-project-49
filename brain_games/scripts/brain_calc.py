@@ -10,23 +10,25 @@ def calc():
         number = random.randint(1, 100)
         number1 = random.randint(1, 100)
         operand = random.choice(["+" or "-" or"*"])
-        print(f'Question: {number}  {operand}  {number1}')
-        answer=prompt.string('Your answer: ') 
+        print(f'Question: {number}  {operand}  {number1}') 
         if operand == "+":
                 sum = number + number1
-        if answer == sum:
-                    print('Correct!')
-                    count = count + 1
+                answer=prompt.string('Your answer: ')
+                if int(answer) == sum:
+                        print('Correct!')
+                        count = count + 1
         if operand == "-":
                 sum = number - number1
-        if answer == sum:
-                    print('Correct!')
-                    count = count + 1
+                answer=prompt.string('Your answer: ')
+                if int(answer) == sum:
+                        print('Correct!')
+                        count = count + 1
         if operand == "*":
                 sum = number * number1
-        if answer == sum:
-                    print('Correct!')
-                    count = count + 1
+                answer=prompt.string('Your answer: ')
+                if int(answer) == sum:
+                        print('Correct!')
+                        count = count + 1            
     if count == 3:
                     print(f'Congratulations, {name}!')
     else:
