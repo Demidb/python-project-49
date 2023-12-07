@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
 def main():
-    print("Welcome to the Brain Games!")
-
+    print("Welcome to the Brain Games!")  # использовать здесь 
 if __name__ == "__main__":
     main()
     if __name__ == "__main__":
-    name = input()
-    welcome_user('name')
+        name = input()
+        welcome_user('name') 
