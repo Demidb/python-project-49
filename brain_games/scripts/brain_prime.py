@@ -12,7 +12,7 @@ def main():
     name = input('Welcome to the Brain Games!\n'
                  'May I have your name? ')
     print(f"Hello, {name}!\n"
-          f'Answer "yes" if given number is prime. Otherwise answer "no"')
+          f'Answer "yes" if given number is prime. Otherwise answer "no".')
     for n in range(3):
             number = random.randint(2, 50)
             print (f'Question: {number}')
@@ -29,4 +29,3 @@ def main():
                         break
     if count == 3:
         print("Congratulations!")
-main()
