@@ -28,4 +28,4 @@ def main():
                         print (f" {user_answer} is wrong answer ;(. Correct answer was {correct_answer}.\nLet's try again, {name}!")
                         break
     if count == 3:
-        print("Congratulations!")
+        print("Congratulations, {name}!")
