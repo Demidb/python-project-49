@@ -1,7 +1,7 @@
 import prompt
 import random
-
-def gcd():
+from math import gcd
+def gcd1():
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? ')
     print(f"Hello, {name}!\n"
@@ -12,7 +12,7 @@ def gcd():
         number1 = random.randint(1, 100)
         print(f'Question: {number} {number1}')
         answer=prompt.string('Your answer: ') 
-        true_answer = delitel
+        true_answer = gcd(number, number1)
         if answer == true_answer:
                 print('Correct!')
                 count +=1
@@ -20,17 +20,4 @@ def gcd():
                     print(f'Congratulations, {name}!')
     else:
            print (f"{answer} is wrong answer ;(. Correct answer was {true_answer}.\nLet's try again, {name}")
-
-def delitel():
-    number = a
-    number1 = b
-    while a != 0 and b != 0:
-        if a > b:
-                a = a % b
-        else:
-            b = b % a
-    return a + b
-
-            
-        
-gcd()
+gcd1()
