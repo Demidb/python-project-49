@@ -26,6 +26,4 @@ def main():
                     count +=1
     if count == 3:
         print("Congratulations!")
-    else:
-        print(f"Sorry, {name}.{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.\nLet's try again, {name}")
-main()
+    print(f"Sorry, {name}.{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.\nLet's try again, {name}")
