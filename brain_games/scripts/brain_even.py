@@ -13,7 +13,9 @@ def main():
         if (number % 2 == 0 and answer == 'yes') or (number % 2 != 0 and answer == 'no'):
                 print('Correct!')
                 count +=1
+        else:
+                print (f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}")
+                break
     if count == 3:
                     print(f'Congratulations, {name}!')
-    else:
-           print (f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}")
+           
