@@ -41,4 +41,3 @@ def main():
     if count == 3:
                     print(f'Congratulations, {name}!')
        
-main()
