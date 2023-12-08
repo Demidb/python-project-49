@@ -17,19 +17,28 @@ def main():
                 if answer == str(sum):
                         print('Correct!')
                         count = count + 1
+                else:
+                        print (f" {answer} is wrong answer ;(. Correct answer was {sum}.\nLet's try again, {name}!")
+                        break
         if operand == "-":
                 sum = number - number1
                 answer=prompt.string('Your answer: ')
                 if answer == str(sum):
                         print('Correct!')
                         count = count + 1
+                else:
+                        print (f" {answer} is wrong answer ;(. Correct answer was {sum}.\nLet's try again, {name}!")
+                        break
         if operand == "*":
                 sum = number * number1
                 answer=prompt.string('Your answer: ')
                 if answer == str(sum):
                         print('Correct!')
-                        count = count + 1            
+                        count = count + 1    
+                else:
+                        print (f" {answer} is wrong answer ;(. Correct answer was {sum}.\nLet's try again, {name}!") 
+                        break       
     if count == 3:
                     print(f'Congratulations, {name}!')
-    else:
-           print (f" {answer} is wrong answer ;(. Correct answer was {sum}.\nLet's try again, {name}")
+       
+main()
