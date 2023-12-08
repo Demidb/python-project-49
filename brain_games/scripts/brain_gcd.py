@@ -20,4 +20,3 @@ def gcd1():
                     print(f'Congratulations, {name}!')
     else:
            print (f"{answer} is wrong answer ;(. Correct answer was {true_answer}.\nLet's try again, {name}")
-gcd1()
