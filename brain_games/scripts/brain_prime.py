@@ -15,7 +15,8 @@ def main():
           f'Answer "yes" if given number is prime. Otherwise answer "no"')
     for n in range(3):
             number = random.randint(2, 50)
-            user_answer = input(f"Is {number} a prime number? (yes/no): ").lower()
+            print (f'Question: {number}')
+            user_answer = input('Your answer: ').lower()
             
             if user_answer in ('yes', 'no'):
                 correct_answer = 'yes' if is_prime(number) else 'no'
@@ -27,5 +28,4 @@ def main():
         print("Congratulations!")
     else:
         print(f"Sorry, {name}.{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.\nLet's try again, {name}")
-
 main()
