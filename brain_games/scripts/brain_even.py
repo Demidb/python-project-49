@@ -4,7 +4,7 @@ def main():
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? ')
     print(f"Hello, {name}!\n"
-          f'Answer "yes" if the number is even, otherwise answer "no"')
+          f'Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
     for n in range(3):
         number = random.randint(1, 100)
