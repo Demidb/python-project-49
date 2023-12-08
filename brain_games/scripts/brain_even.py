@@ -1,6 +1,6 @@
 import prompt
 import random
-def even():
+def main():
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? ')
     print(f"Hello, {name}!\n"
@@ -17,3 +17,4 @@ def even():
                     print(f'Congratulations, {name}!')
     else:
            print (f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}")
+main()
