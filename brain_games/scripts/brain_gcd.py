@@ -13,7 +13,7 @@ def gcd1():
         print(f'Question: {number} {number1}')
         answer=prompt.string('Your answer: ') 
         true_answer = gcd(number, number1)
-        if answer == true_answer:
+        if answer == str(true_answer):
                 print('Correct!')
                 count +=1
     if count == 3:
