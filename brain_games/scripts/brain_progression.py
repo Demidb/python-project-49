@@ -1,7 +1,7 @@
 import prompt
 import random
 
-def progression():
+def main():
     def hidden_number(progression):
         hidden_index = random.randint(0, len(progression) - 1)
         true_hidden = progression[hidden_index]

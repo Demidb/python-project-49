@@ -17,4 +17,3 @@ def even():
                     print(f'Congratulations, {name}!')
     else:
            print (f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}")
-even()

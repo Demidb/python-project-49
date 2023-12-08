@@ -1,7 +1,7 @@
 import prompt
 import random
 from math import gcd
-def gcd1():
+def main():
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? ')
     print(f"Hello, {name}!\n"

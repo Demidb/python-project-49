@@ -1,6 +1,6 @@
 import prompt
 import random
-def calc():
+def main():
     name = prompt.string('Welcome to the Brain Games!\n'
                          'May I have your name? ')
     print(f"Hello, {name}!\n"
@@ -33,4 +33,3 @@ def calc():
                     print(f'Congratulations, {name}!')
     else:
            print (f" {answer} is wrong answer ;(. Correct answer was {sum}.\nLet's try again, {name}")
-calc()
