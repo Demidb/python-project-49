@@ -1,6 +1,7 @@
 import prompt
 import random
 
+
 def main():
     def hidden_number(progression):
         hidden_index = random.randint(0, len(progression) - 1)
@@ -18,10 +19,8 @@ def main():
         step = random.randint(1, 10)
         first_number = random.randint(0, 100)
         progression_list = [first_number + i * step for i in range(length)]
-
         hidden_prog, hidden_number_value = hidden_number(progression_list)
-
-        print(f'Question:', ' '.join(map(str, hidden_prog)))
+        print("Question:", " ".join(map(str, hidden_prog)))
         answer = prompt.string('Your answer: ')
         true_answer = str(hidden_number_value)
 
@@ -29,7 +28,8 @@ def main():
             print('Correct!')
             count += 1
         else:
-            print(f" {answer} is wrong answer ;(. Correct answer was {true_answer}."
+            print(f" {answer} is wrong answer ;(. "
+                  f"Correct answer was {true_answer}."
                   f"\nLet's try again, {name}!")
             break
 
