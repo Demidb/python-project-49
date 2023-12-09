@@ -19,7 +19,8 @@ def main():
             print('Correct!')
             count += 1
         else:
-            print(f" {answer} is wrong answer ;(. Correct answer was {true_answer}."
+            print(f" {answer} is wrong answer ;(. "
+                  f"Correct answer was {true_answer}."
                   f"\nLet's try again, {name}!")
             break
     if count == 3:
