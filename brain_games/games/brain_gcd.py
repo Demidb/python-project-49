@@ -1,27 +1,21 @@
-import prompt
 import random
-from math import gcd
+import math
+
+from brain_games.engine import run_game
+from brain_games.consts import GCD_INSTUCTION
 
 
-def main():
-    name = prompt.string('Welcome to the Brain Games!\n'
-                         'May I have your name? ')
-    print(f"Hello, {name}!\n"
-          f'Find the greatest common divisor of given numbers.')
-    count = 0
-    for n in range(3):
-        number = random.randint(1, 100)
-        number1 = random.randint(1, 100)
-        print(f'Question: {number} {number1}')
-        answer = prompt.string('Your answer: ')
-        true_answer = gcd(number, number1)
-        if answer == str(true_answer):
-            print('Correct!')
-            count += 1
-        else:
-            print(f" {answer} is wrong answer ;(. "
-                  f"Correct answer was {true_answer}."
-                  f"\nLet's try again, {name}!")
-            break
-    if count == 3:
-        print(f'Congratulations, {name}!')
+def get_nums_pair_and_gcd():
+    num1, num2 = random.randint(1, 100), random.randint(1, 100)
+    nums_pair = f'{num1} {num2}'
+    gcd = math.gcd(num1, num2)
+
+    return nums_pair, str(gcd)
+
+def run_gcd_game():
+    run_game(get_nums_pair_and_gcd, GCD_INSTUCTION)
+
+
+
+def test_func():  # this is a func for test
+    return get_nums_pair_and_gcd()
