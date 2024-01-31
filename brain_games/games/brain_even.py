@@ -12,3 +12,5 @@ def get_num_and_even_ans() -> tuple:
 
     return number, answer
 
+def run_even_game():
+    run_game(get_num_and_even_ans, EVEN_INSTUCTION)
