@@ -12,9 +12,9 @@ def get_nums_pair_and_gcd():
 
     return nums_pair, str(gcd)
 
+
 def run_gcd_game():
     run_game(get_nums_pair_and_gcd, GCD_INSTUCTION)
-
 
 
 def test_func():  # this is a func for test
