@@ -20,7 +20,9 @@ def get_progression_and_miss_num():
     
     return progr_with_missed_num, str(missed_num)
 
-
+def run_progression_game():
+    run_game(get_progression_and_miss_num)
+    
 def test_func():  # this is a func for test
     return get_progression_and_miss_num()
 
