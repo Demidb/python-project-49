@@ -7,18 +7,18 @@ Python-project-49
 Статус проекта: завершен
 Статус билда: завершен
 
-## Содержание
+### Содержание
 - [Технологии](#технологии)
 - [Начало работы](10-10-2023)
 - [Тестирование](05-01-2023)
 - [Команда проекта/Автор](Demid Alexeev)
 
-## Технологии
+### Технологии
 - [Python 3.10](https://www.python.org/)
 - [Prompt](https://pypi.org/project/prompt/)
 - [flake8] (https://flake8.pycqa.org/en/latest/)
 
-## Разработка и Использование
+### Разработка и Использование
 Для начала необходимо установить poetry и создать вирутальную среду
 Установка poetry:
 pip install
@@ -80,33 +80,55 @@ brain-progression
 
 make build
 
+### Добавление зависимостей
+Можно использовать команду:
+poetry add prompt
+
+Что сразу же добавит данную зависимость в:
+[tool.poetry.dependencies]
+python = "^3.11"
+prompt = "^0.4.1"  # сюда
 
 ### Установка
 Чтобы выполнить установку пакета, выполните команду: 
 
 make package-install
 
-## Команда проекта
+### FAQ
+Как проверить работают ли игры? poetry run(впишите сюда название игры из папки games)  
+Можно ли в brain-calc ввести два операнда, например * и + ? Я вам запрещаю вводить более 1-го операнда  
+Как понять праймовое ли число? Прайм число делится только на само себя и на единицу (можете проверить свои силы введя в терминале brain-prime)
+
+### To do
+1. Добавить крутое README  
+2.Всё переписать  
+3. ...  
+4. Проработать логику игр и сократить код  
+5. Создать файл-скрипт для запуска игр по форме "одна за одной"
+
+### Команда проекта
 Автор:
 
-- [Имя фамилия](https://<ссылка на любой контакт>) — Python developer
+- [Демид Алексеев](vk.com/demidkab) — Python developer
 
-## Источники
+### Источники
 
 
 | Название источника | Значение/пояснение |
 |--------------------|--------------------|
-| 1  Марк Лутц       | В его книге  "Изучаем Python "  были продемонстрированы интересные функции, 
-                         которые мотировали встать с дивана и идти тестировать их    |     |
+| 1  Марк Лутц       | В его книге  "Изучаем Python "  были продемонстрированы интересные функции, которые мотировали встать с дивана и идти тестировать их|
+|2 Видео школьников 10-летней давности | Видео оказали на меня внушительное влияния, показав, как нужно пользоваться VSC и настраивать PATH в Windows, а также помогли с установкой Ubuntu|
+|3 Мой брат | Объяснение логики работы некоторых функций, а также разжевывание требований проекта с 3 по 7 шаги| 
 
-Тесты
 
-brain-even test:  https://asciinema.org/a/uN4r5k0adWDkM8Pd7zdLTC465
+### Тестирование
 
-brain-calc test: https://asciinema.org/a/0Q41SHJZqXHSDSG8kYbl6aNwk
+brain-even test:  ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/uN4r5k0adWDkM8Pd7zdLTC465)] 
 
-brain-gcd test: https://asciinema.org/a/iUxAaPbKWFHfF1B5NnuQ8gmcd
+brain-calc test: ![asciicast](<link_to_ascii>.svg)] ([asciinema.org/a/0Q41SHJZqXHSDSG8kYbl6aNw])
 
-brain-progression test: https://asciinema.org/a/P1Hg9MHKbXULw3h7h6X5GZuKc
+brain-gcd test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/iUxAaPbKWFHfF1B5NnuQ8gmcd]))
 
-brain-prime test: https://asciinema.org/a/19JJpE6UrRleI4VQnVPLO8UPU
+brain-progression test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/P1Hg9MHKbXULw3h7h6X5GZuKc]))  
+
+brain-prime test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/19JJpE6UrRleI4VQnVPLO8UPU]))   

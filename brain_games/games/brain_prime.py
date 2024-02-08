@@ -21,7 +21,3 @@ def get_num_and_prime_ans():
 
 def run_prime_game():
     run_game(get_num_and_prime_ans, PRIME_INSTUCTION)
-
-
-def test_func():  # this is a func for test
-    return get_num_and_prime_ans()

@@ -15,7 +15,3 @@ def get_nums_pair_and_gcd():
 
 def run_gcd_game():
     run_game(get_nums_pair_and_gcd, GCD_INSTUCTION)
-
-
-def test_func():  # this is a func for test
-    return get_nums_pair_and_gcd()
