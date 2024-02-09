@@ -123,12 +123,12 @@ make package-install
 
 ### Тестирование
 
-brain-even test:  ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/uN4r5k0adWDkM8Pd7zdLTC465)] 
+brain-even test:  ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/PjELBsWhQEPUUTV07nSEnEgQk])
 
-brain-calc test: ![asciicast](<link_to_ascii>.svg)] ([asciinema.org/a/0Q41SHJZqXHSDSG8kYbl6aNw])
+brain-calc test: ![asciicast](<link_to_ascii>.svg)] ([https://asciinema.org/a/nTcG92bkzQcR64Cn07oCN68dE])
 
-brain-gcd test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/iUxAaPbKWFHfF1B5NnuQ8gmcd]))
+brain-gcd test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/uZKjLWawlnemQAryBoj1A5tbS]))
 
-brain-progression test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/P1Hg9MHKbXULw3h7h6X5GZuKc]))  
+brain-progression test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k]))  
 
-brain-prime test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/19JJpE6UrRleI4VQnVPLO8UPU]))   
+brain-prime test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k]))   
