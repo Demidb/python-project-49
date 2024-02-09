@@ -2,10 +2,8 @@
 [![Actions Status](https://github.com/Demidb/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Demidb/python-project-49/actions)
 <a href="https://codeclimate.com/github/Demidb/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/522cd74e06f4ba19bd53/maintainability" /></a> 
 
-Python-project-49
-Проект направлен на оттачивание навыков, полученных разработчиком во время прохождения модулей перед 1-м проектом. Проект закрепляет знания в pip, poetry, а также навыков создания виртуального окружения.
-Статус проекта: завершен
-Статус билда: завершен
+### Brain games
+Проект направлен на оттачивание навыков, полученных разработчиком во время прохождения модулей перед 1-м проектом. Проект закрепляет знания в pip, poetry, а также навыков создания виртуального окружения. 
 
 ### Содержание
 - [Технологии](#технологии)
