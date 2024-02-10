@@ -121,12 +121,12 @@ make package-install
 
 ### Тестирование
 
-brain-even test:  ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/PjELBsWhQEPUUTV07nSEnEgQk])
+brain-even: [![asciicast](https://asciinema.org/a/PjELBsWhQEPUUTV07nSEnEgQk.svg)](https://asciinema.org/a/PjELBsWhQEPUUTV07nSEnEgQk)
 
-brain-calc test: ![asciicast](<link_to_ascii>.svg)] ([https://asciinema.org/a/nTcG92bkzQcR64Cn07oCN68dE])
+brain-calc: [![asciicast](https://asciinema.org/a/nTcG92bkzQcR64Cn07oCN68dE.svg)](https://asciinema.org/a/nTcG92bkzQcR64Cn07oCN68dE)
 
-brain-gcd test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/uZKjLWawlnemQAryBoj1A5tbS]))
+brain-gcd test: [![asciicast](https://asciinema.org/a/uZKjLWawlnemQAryBoj1A5tbS.svg)](https://asciinema.org/a/uZKjLWawlnemQAryBoj1A5tbS)
 
-brain-progression test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k]))  
+brain-progression test: [![asciicast](https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k.svg)](https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k)
 
-brain-prime test: ![asciicast](<link_to_ascii>.svg)]([https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k]))   
+brain-prime test: [![asciicast](https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k.svg)](https://asciinema.org/a/yJqAKB9m7DJ2cQB0oZSgGgz4k)
